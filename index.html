@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo.css">
+    <title>structure</title>
+</head>
+
+<body style="background-color: rgb(248, 213, 160);">
+    <div class="container">
+        <div class="midconatiner" id="midconatiner1">
+            <h1 id="setminuteminute" style="margin-left: 80px; margin-top: 100px;">00</h1>
+            <h1 style=" margin-top: 100px;"> :</h1>
+            <h1 id="setminutesec" style=" margin-top: 100px;">00</h1>
+
+        </div>
+        <div class="downcontainer">
+            <div style="display: flex;">
+            <h2  style="color: white; margin-left: 100px ;" >Session-</h2><h2 style="color: white; margin-right: 80px ;" id="sessionname"> 1</h2></div>
+            <div style="display:inline-flex">
+                <div>
+                    <h4 style="color: white; margin-left: 35px;">session time</h4>
+
+                    <h3 id="setminute" style="margin-left: 50px; color: rgb(29, 178, 178);">1</h3>
+                    <div id="setminutebtn" style="margin-left: 40px;">
+                        <button id="decminute" style="width: 30px;color:white;background-color: black;">-</button>
+                        <button id="addminute" style="width: 30px;color:white;background-color: black;">+</button>
+
+                    </div>
+                </div>
+                <div style="margin-left:60px">
+                    <h4 style="color: white; margin-right: 30px;">break time</h4>
+                    <h3 id="breakminute" style="margin-left: 30px; color:orange">1</h3>
+                    <div id="breakminutebtn" style="margin-left: 10px;">
+                        <button id="decbreakminute" style="width: 30px;color:white;background-color: black;">-</button>
+                        <button id="addbreakminute" style="width: 30px;color:white;background-color: black;">+</button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div style="margin-top: 40px;">
+                <button id="Startbtn"
+                    style="color:white;background-color: black;height: 30px; width: 70px;margin-left:40px;">Start</button>
+                <button id="resetbtn"
+                    style="color:white;background-color: black;height: 30px; width: 70px;margin-left: 70px;">Reset</button>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    </div>
+
+</body>
+<script src="demo.js">
+
+</script>
+
+</html>
